@@ -1,0 +1,946 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***            Transient Analysis of RK6-44B_Zabrodin_LR7_scheme3            ***
+***                           28.05.2024 14:41:34                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           26u
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           57
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+Stepping Options
+================
+Stepping is Nested
+
+Step What  V2 dc.value
+From       0
+To         0.6
+Step Value 0.1
+Method     Linear
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=0                      ***
+*****************************************************
+
+Temperature=27 V2=0
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.157u  3             0.000  
+4            10.000   OUT2         10.000   6             2.157u 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                103.669p
+
+Current Terms:
+ID                -134.720p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                 -10.000 
+
+Power DC Terms:
+PD                   1.347n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.720p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.157u         2.157u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.157u        20.596n       155.277n
+Power DC Terms:
+PD                    0.332f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -154.089p        20.596p       155.277p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000          0.000 
+Power DC Terms:
+PG                   0.000          1.759n         0.000 
+
+DC Pin Currents:
+ISource            154.089p      -175.874p       134.720p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.1                     ***
+*****************************************************
+
+Temperature=27 V2=.1
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.156u  3             0.000  
+4            10.000   OUT2         10.000   6           100.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                103.989p
+
+Current Terms:
+ID                -134.620p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.900 
+
+Power DC Terms:
+PD                   1.333n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.620p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.156u         2.156u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.156u        20.596n       155.177n
+Power DC Terms:
+PD                    0.332f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.989p        20.596p       155.177p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        100.000m
+Power DC Terms:
+PG                   0.000          1.758n       -13.462p
+
+DC Pin Currents:
+ISource            153.989p      -175.774p       134.620p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.2                     ***
+*****************************************************
+
+Temperature=27 V2=.2
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.154u  3             0.000  
+4            10.000   OUT2         10.000   6           200.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                104.314p
+
+Current Terms:
+ID                -134.520p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.800 
+
+Power DC Terms:
+PD                   1.318n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.520p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.154u         2.154u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.154u        20.596n       155.077n
+Power DC Terms:
+PD                    0.332f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.889p        20.596p       155.077p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        200.000m
+Power DC Terms:
+PG                   0.000          1.757n       -26.904p
+
+DC Pin Currents:
+ISource            153.889p      -175.674p       134.520p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.3                     ***
+*****************************************************
+
+Temperature=27 V2=.3
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.153u  3             0.000  
+4            10.000   OUT2         10.000   6           300.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                104.642p
+
+Current Terms:
+ID                -134.420p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.700 
+
+Power DC Terms:
+PD                   1.304n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.420p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.153u         2.153u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.153u        20.596n       154.977n
+Power DC Terms:
+PD                    0.331f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.789p        20.596p       154.977p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        300.000m
+Power DC Terms:
+PG                   0.000          1.756n       -40.326p
+
+DC Pin Currents:
+ISource            153.789p      -175.574p       134.420p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.4                     ***
+*****************************************************
+
+Temperature=27 V2=.4
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.152u  3             0.000  
+4            10.000   OUT2         10.000   6           400.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                104.975p
+
+Current Terms:
+ID                -134.320p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.600 
+
+Power DC Terms:
+PD                   1.289n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.320p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.152u         2.152u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.152u        20.596n       154.877n
+Power DC Terms:
+PD                    0.331f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.689p        20.596p       154.877p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        400.000m
+Power DC Terms:
+PG                   0.000          1.755n       -53.728p
+
+DC Pin Currents:
+ISource            153.689p      -175.474p       134.320p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.5                     ***
+*****************************************************
+
+Temperature=27 V2=.5
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.150u  3             0.000  
+4            10.000   OUT2         10.000   6           500.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                105.312p
+
+Current Terms:
+ID                -134.220p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.500 
+
+Power DC Terms:
+PD                   1.275n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.220p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.150u         2.150u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.150u        20.596n       154.777n
+Power DC Terms:
+PD                    0.330f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.589p        20.596p       154.777p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        500.000m
+Power DC Terms:
+PG                   0.000          1.754n       -67.110p
+
+DC Pin Currents:
+ISource            153.589p      -175.374p       134.220p
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     V2=.6                     ***
+*****************************************************
+
+Temperature=27 V2=.6
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT1         10.000   2             2.149u  3             0.000  
+4            10.000   OUT2         10.000   6           600.002m 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         KD213B
+
+Capacitance Terms:
+CAP                105.653p
+
+Current Terms:
+ID                -134.120p
+
+Resistance Terms:
+REQ                  1.000T
+
+Voltage Terms:
+VD                  -9.400 
+
+Power DC Terms:
+PD                   1.261n
+PS                   0.000 
+
+DC Pin Currents:
+Id                -134.120p
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q1             Q2
+Using model:         KT351A         KT351A
+
+Beta Terms:
+BETADC              -2.127         -2.127 
+BETAAC              -8.986m        -8.986m
+
+Capacitance Terms:
+CPI                 24.480p        24.480p
+CMU                  6.092p         6.092p
+CBX                  0.000          0.000 
+CJS                  0.000          0.000 
+
+Conductance Terms:
+GM                -282.773f      -282.773f
+
+Current Terms:
+IB                  -9.684p        -9.684p
+IC                  20.599p        20.599p
+
+Resistance Terms:
+RPI                 31.777G        31.777G
+RX                  75.000         75.000 
+RO                 846.122G       846.122G
+
+Voltage Terms:
+VBE                  2.149u         2.149u
+VBC                -10.000        -10.000 
+VCE                 10.000         10.000 
+
+Frequency Terms:
+FT                  -1.472m        -1.472m
+
+Power DC Terms:
+PD                 205.990p       205.990p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ib                  -9.684p        -9.684p
+Ic                  20.599p        20.599p
+Ie                 -10.915p       -10.915p
+Is                   0.000          0.000 
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+vbe                  0.000          0.000 
+vce                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RB             R1             RK
+V                    -2.149u        20.596n       154.677n
+Power DC Terms:
+PD                    0.330f     4.242E-019         0.024f
+
+DC Pin Currents:
+Ir                 -153.489p        20.596p       154.677p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             VK             V2
+V                    0.000         10.000        600.000m
+Power DC Terms:
+PG                   0.000          1.753n       -80.472p
+
+DC Pin Currents:
+ISource            153.489p      -175.274p       134.120p
+
+

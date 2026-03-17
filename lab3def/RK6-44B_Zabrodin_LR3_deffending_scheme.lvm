@@ -1,0 +1,41 @@
+LabVIEW Measurement	
+Writer_Version	0.92
+Reader_Version	1
+Separator	Tab
+Multi_Headings	Yes
+X_Columns	Multi
+Time_Pref	Relative
+Description	Generated from Multisim
+Date		2024/04/15	
+Time		16:17:28	
+***End_of_Header***	
+
+
+***Start_Special***
+Page_tab_name	DC Sweep
+Page_title	RK6-44B_Zabrodin_LR3_deffending_scheme
+***End_Special***
+***Start_Special***
+Graph name	DC Transfer Characteristic
+Left Axis	LINEAR	Label=Current (A)
+Bottom Axis	LINEAR	Label=vv1 Voltage (V)
+***End_Special***
+
+Channels	1	
+Samples		5	
+Date		2024/04/15	
+Time		16:17:28	
+Y_Dimension		Current	
+Y_Unit_Label		A	
+X_Dimension		vv1 Voltage	
+X_Unit_Label		V	
+X0		1.000000e+00	
+Delta_X		2.000000e-01	
+***End_of_Header***	
+X_Value_1	Trace_1(I(D1[ID]))	Comment
+1.000000e+00	4.428693e-04	---
+1.200000e+00	6.340500e-04	---
+1.400000e+00	8.271749e-04	---
+1.600000e+00	1.021703e-03	---
+1.800000e+00	1.217942e-03	---
+

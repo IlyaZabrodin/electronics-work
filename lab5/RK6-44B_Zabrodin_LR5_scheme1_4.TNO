@@ -1,0 +1,120 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***           Transient Analysis of RK6-44B_Zabrodin_LR5_scheme1_4           ***
+***                           13.05.2024 14:13:10                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           1m
+Output Start Time (tstart) 0
+Maximum Time Step          1u
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            12.000   OUT          55.749m  IN          804.128m 
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:               Q3
+Using model:        KT351A
+
+Beta Terms:
+BETADC              5.943 
+BETAAC             66.097 
+
+Capacitance Terms:
+CPI               107.561p
+CMU                 9.472n
+CBX                 0.000 
+CJS                 0.000 
+
+Conductance Terms:
+GM                254.877m
+
+Current Terms:
+IB                  1.005m
+IC                  5.972m
+
+Resistance Terms:
+RPI               259.331 
+RX                 75.000 
+RO                 24.890 
+
+Voltage Terms:
+VBE               804.128m
+VBC               748.379m
+VCE                55.749m
+
+Frequency Terms:
+FT                4.234MEG
+
+Power DC Terms:
+PD                  1.141m
+PS                  0.000 
+
+DC Pin Currents:
+Ib                  1.005m
+Ic                  5.972m
+Ie                 -6.977m
+Is                  0.000 
+
+Condition:
+State                  SAT
+
+Device Variables:
+area                1.000 
+vbe                 0.000 
+vce                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                RK
+V                   11.944 
+Power DC Terms:
+PD                  71.333m
+
+DC Pin Currents:
+Ir                   5.972m
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               EK            V1
+V                  12.000       804.128m
+Power DC Terms:
+PG                 71.666m      808.123u
+
+DC Pin Currents:
+ISource            -5.972m       -1.005m
+
+

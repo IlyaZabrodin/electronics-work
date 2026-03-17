@@ -1,0 +1,2693 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***          AC Analysis of RK6-44B_Zabrodin_LR2_deffending_scheme           ***
+***                           25.03.2024 17:00:43                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          Linear 2e6,500k
+Number of Points         1001
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+Stepping Options
+================
+Stepping is Nested
+
+Step What  R2 value
+From       0.5
+To         1.5
+Step Value 30m
+Method     Linear
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     R2=.5                     ***
+*****************************************************
+
+Temperature=27 R2=.5
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.53                     ***
+*****************************************************
+
+Temperature=27 R2=.53
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.56                     ***
+*****************************************************
+
+Temperature=27 R2=.56
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.59                     ***
+*****************************************************
+
+Temperature=27 R2=.59
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.62                     ***
+*****************************************************
+
+Temperature=27 R2=.62
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.65                     ***
+*****************************************************
+
+Temperature=27 R2=.65
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.68                     ***
+*****************************************************
+
+Temperature=27 R2=.68
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.71                     ***
+*****************************************************
+
+Temperature=27 R2=.71
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.74                     ***
+*****************************************************
+
+Temperature=27 R2=.74
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.77                     ***
+*****************************************************
+
+Temperature=27 R2=.77
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     R2=.8                     ***
+*****************************************************
+
+Temperature=27 R2=.8
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.83                     ***
+*****************************************************
+
+Temperature=27 R2=.83
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.86                     ***
+*****************************************************
+
+Temperature=27 R2=.86
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.89                     ***
+*****************************************************
+
+Temperature=27 R2=.89
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.92                     ***
+*****************************************************
+
+Temperature=27 R2=.92
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.95                     ***
+*****************************************************
+
+Temperature=27 R2=.95
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=.98                     ***
+*****************************************************
+
+Temperature=27 R2=.98
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.01                    ***
+*****************************************************
+
+Temperature=27 R2=1.01
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.04                    ***
+*****************************************************
+
+Temperature=27 R2=1.04
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.07                    ***
+*****************************************************
+
+Temperature=27 R2=1.07
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.1                     ***
+*****************************************************
+
+Temperature=27 R2=1.1
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.13                    ***
+*****************************************************
+
+Temperature=27 R2=1.13
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.16                    ***
+*****************************************************
+
+Temperature=27 R2=1.16
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.19                    ***
+*****************************************************
+
+Temperature=27 R2=1.19
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.22                    ***
+*****************************************************
+
+Temperature=27 R2=1.22
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.25                    ***
+*****************************************************
+
+Temperature=27 R2=1.25
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.28                    ***
+*****************************************************
+
+Temperature=27 R2=1.28
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.31                    ***
+*****************************************************
+
+Temperature=27 R2=1.31
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.34                    ***
+*****************************************************
+
+Temperature=27 R2=1.34
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.37                    ***
+*****************************************************
+
+Temperature=27 R2=1.37
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.4                     ***
+*****************************************************
+
+Temperature=27 R2=1.4
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.43                    ***
+*****************************************************
+
+Temperature=27 R2=1.43
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.46                    ***
+*****************************************************
+
+Temperature=27 R2=1.46
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.49                    ***
+*****************************************************
+
+Temperature=27 R2=1.49
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    R2=1.5                     ***
+*****************************************************
+
+Temperature=27 R2=1.5
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             0.000   3             0.000  
+
+DC Operating Point Inductor Current
+===================================
+Inductor     Current 
+L1            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1            R2
+V                    0.000         0.000 
+Power DC Terms:
+PD                   0.000         0.000 
+
+DC Pin Currents:
+Ir                   0.000         0.000 
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type Inductor
+============================================
+Instance:                L1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Il                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1
+V                    0.000 
+Power DC Terms:
+PS                   0.000 
+
+DC Pin Currents:
+Ic                   0.000 
+
+Device Variables:
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   0.000 
+Power DC Terms:
+PG                  0.000 
+
+DC Pin Currents:
+ISource             0.000 
+
+

@@ -1,0 +1,107 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***               DC Analysis of RK6-44B_Zabrodin_LR7_VAH_OUT                ***
+***                                                                          ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Linear
+Variable 1 Name          VC
+Variable 1 Range         10, 0, 0.01
+Variable 2 Method        List
+Variable 2 Name          I1
+Variable 2 Range         4.06u
+Temperature              Linear 27
+Number of Points         1
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                 I1=4.06e-006                  ***
+*****************************************************
+
+Temperature=27 I1=4.06e-006
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+Interpolated Waveform Values
+============================
+    V(VC)    IC(Q1)
+                (A)
+   10.000  583.008n
+

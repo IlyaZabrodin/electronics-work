@@ -1,0 +1,102 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***               Dynamic DC of RK6-44B_Zabrodin_LR5_scheme1_3               ***
+***                           13.05.2024 14:05:18                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+IN          704.528m  2            12.000   OUT           6.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                Q3
+Using model:         KT351A
+
+Beta Terms:
+BETADC              76.756 
+BETAAC              81.538 
+
+Capacitance Terms:
+CPI                 67.403p
+CMU                  7.377p
+CBX                  0.000 
+CJS                  0.000 
+
+Conductance Terms:
+GM                 114.278m
+
+Current Terms:
+IB                  39.085u
+IC                   3.000m
+
+Resistance Terms:
+RPI                713.509 
+RX                  75.000 
+RO                  37.403K
+
+Voltage Terms:
+VBE                704.528m
+VBC                 -5.295 
+VCE                  6.000 
+
+Frequency Terms:
+FT               243.218MEG
+
+Power DC Terms:
+PD                  18.028m
+PS                   0.000 
+
+DC Pin Currents:
+Ib                  39.085u
+Ic                   3.000m
+Ie                  -3.039m
+Is                   0.000 
+
+Condition:
+State                   LIN
+
+Device Variables:
+area                 1.000 
+vbe                  0.000 
+vce                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 RK
+V                     6.000 
+Power DC Terms:
+PD                   18.000m
+
+DC Pin Currents:
+Ir                    3.000m
+
+Device Variables:
+tc1                   0.000 
+tc2                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             EK
+V                  704.528m        12.000 
+Power DC Terms:
+PG                  27.537u        36.000m
+
+DC Pin Currents:
+ISource            -39.085u        -3.000m
+
+

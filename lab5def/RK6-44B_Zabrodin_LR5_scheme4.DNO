@@ -1,0 +1,30 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***               DC Analysis of RK6-44B_Zabrodin_LR5_scheme4                ***
+***                           13.05.2024 16:10:38                            ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Auto
+Variable 1 Name          EK
+Variable 1 Range         12,0,.01
+Variable 2 Method        None
+Variable 2 Name          
+Variable 2 Range         
+Temperature              Linear 27
+Number of Points         51
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+

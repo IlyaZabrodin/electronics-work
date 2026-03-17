@@ -1,0 +1,2127 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***            Transient Analysis of RK6-44B_Zabrodin_LR1_scheme1            ***
+***                           03.03.2024 14:46:32                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           10m
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+Stepping Options
+================
+Stepping is Nested
+
+Step What  ROUT value
+From       0
+To         50
+Step Value 1
+Method     Linear
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=0                     ***
+*****************************************************
+
+Temperature=27 ROUT=0
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2            62.500n 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                    1.000        62.500n
+Power DC Terms:
+PD                  62.500m        3.906n
+
+DC Pin Currents:
+Ir                  62.500m       62.500m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 62.500m
+
+DC Pin Currents:
+ISource           -62.500m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=1                     ***
+*****************************************************
+
+Temperature=27 ROUT=1
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2            58.824m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  941.176m       58.824m
+Power DC Terms:
+PD                  55.363m        3.460m
+
+DC Pin Currents:
+Ir                  58.824m       58.824m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 58.824m
+
+DC Pin Currents:
+ISource           -58.824m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=2                     ***
+*****************************************************
+
+Temperature=27 ROUT=2
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           111.111m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  888.889m      111.111m
+Power DC Terms:
+PD                  49.383m        6.173m
+
+DC Pin Currents:
+Ir                  55.556m       55.556m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 55.556m
+
+DC Pin Currents:
+ISource           -55.556m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=3                     ***
+*****************************************************
+
+Temperature=27 ROUT=3
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           157.895m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  842.105m      157.895m
+Power DC Terms:
+PD                  44.321m        8.310m
+
+DC Pin Currents:
+Ir                  52.632m       52.632m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 52.632m
+
+DC Pin Currents:
+ISource           -52.632m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=4                     ***
+*****************************************************
+
+Temperature=27 ROUT=4
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           200.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  800.000m      200.000m
+Power DC Terms:
+PD                  40.000m       10.000m
+
+DC Pin Currents:
+Ir                  50.000m       50.000m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 50.000m
+
+DC Pin Currents:
+ISource           -50.000m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=5                     ***
+*****************************************************
+
+Temperature=27 ROUT=5
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           238.095m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  761.905m      238.095m
+Power DC Terms:
+PD                  36.281m       11.338m
+
+DC Pin Currents:
+Ir                  47.619m       47.619m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 47.619m
+
+DC Pin Currents:
+ISource           -47.619m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=6                     ***
+*****************************************************
+
+Temperature=27 ROUT=6
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           272.727m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  727.273m      272.727m
+Power DC Terms:
+PD                  33.058m       12.397m
+
+DC Pin Currents:
+Ir                  45.455m       45.455m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 45.455m
+
+DC Pin Currents:
+ISource           -45.455m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=7                     ***
+*****************************************************
+
+Temperature=27 ROUT=7
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           304.348m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  695.652m      304.348m
+Power DC Terms:
+PD                  30.246m       13.233m
+
+DC Pin Currents:
+Ir                  43.478m       43.478m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 43.478m
+
+DC Pin Currents:
+ISource           -43.478m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=8                     ***
+*****************************************************
+
+Temperature=27 ROUT=8
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           333.333m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  666.667m      333.333m
+Power DC Terms:
+PD                  27.778m       13.889m
+
+DC Pin Currents:
+Ir                  41.667m       41.667m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 41.667m
+
+DC Pin Currents:
+ISource           -41.667m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=9                     ***
+*****************************************************
+
+Temperature=27 ROUT=9
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           360.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  640.000m      360.000m
+Power DC Terms:
+PD                  25.600m       14.400m
+
+DC Pin Currents:
+Ir                  40.000m       40.000m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 40.000m
+
+DC Pin Currents:
+ISource           -40.000m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=10                    ***
+*****************************************************
+
+Temperature=27 ROUT=10
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           384.615m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  615.385m      384.615m
+Power DC Terms:
+PD                  23.669m       14.793m
+
+DC Pin Currents:
+Ir                  38.462m       38.462m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 38.462m
+
+DC Pin Currents:
+ISource           -38.462m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=11                    ***
+*****************************************************
+
+Temperature=27 ROUT=11
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           407.407m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  592.593m      407.407m
+Power DC Terms:
+PD                  21.948m       15.089m
+
+DC Pin Currents:
+Ir                  37.037m       37.037m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 37.037m
+
+DC Pin Currents:
+ISource           -37.037m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=12                    ***
+*****************************************************
+
+Temperature=27 ROUT=12
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           428.571m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  571.429m      428.571m
+Power DC Terms:
+PD                  20.408m       15.306m
+
+DC Pin Currents:
+Ir                  35.714m       35.714m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 35.714m
+
+DC Pin Currents:
+ISource           -35.714m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=13                    ***
+*****************************************************
+
+Temperature=27 ROUT=13
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           448.276m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  551.724m      448.276m
+Power DC Terms:
+PD                  19.025m       15.458m
+
+DC Pin Currents:
+Ir                  34.483m       34.483m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 34.483m
+
+DC Pin Currents:
+ISource           -34.483m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=14                    ***
+*****************************************************
+
+Temperature=27 ROUT=14
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           466.667m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  533.333m      466.667m
+Power DC Terms:
+PD                  17.778m       15.556m
+
+DC Pin Currents:
+Ir                  33.333m       33.333m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 33.333m
+
+DC Pin Currents:
+ISource           -33.333m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=15                    ***
+*****************************************************
+
+Temperature=27 ROUT=15
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           483.871m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  516.129m      483.871m
+Power DC Terms:
+PD                  16.649m       15.609m
+
+DC Pin Currents:
+Ir                  32.258m       32.258m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 32.258m
+
+DC Pin Currents:
+ISource           -32.258m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=16                    ***
+*****************************************************
+
+Temperature=27 ROUT=16
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           500.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  500.000m      500.000m
+Power DC Terms:
+PD                  15.625m       15.625m
+
+DC Pin Currents:
+Ir                  31.250m       31.250m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 31.250m
+
+DC Pin Currents:
+ISource           -31.250m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=17                    ***
+*****************************************************
+
+Temperature=27 ROUT=17
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           515.152m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  484.848m      515.152m
+Power DC Terms:
+PD                  14.692m       15.611m
+
+DC Pin Currents:
+Ir                  30.303m       30.303m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 30.303m
+
+DC Pin Currents:
+ISource           -30.303m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=18                    ***
+*****************************************************
+
+Temperature=27 ROUT=18
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           529.412m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  470.588m      529.412m
+Power DC Terms:
+PD                  13.841m       15.571m
+
+DC Pin Currents:
+Ir                  29.412m       29.412m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 29.412m
+
+DC Pin Currents:
+ISource           -29.412m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=19                    ***
+*****************************************************
+
+Temperature=27 ROUT=19
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           542.857m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  457.143m      542.857m
+Power DC Terms:
+PD                  13.061m       15.510m
+
+DC Pin Currents:
+Ir                  28.571m       28.571m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 28.571m
+
+DC Pin Currents:
+ISource           -28.571m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=20                    ***
+*****************************************************
+
+Temperature=27 ROUT=20
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           555.556m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  444.444m      555.556m
+Power DC Terms:
+PD                  12.346m       15.432m
+
+DC Pin Currents:
+Ir                  27.778m       27.778m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 27.778m
+
+DC Pin Currents:
+ISource           -27.778m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=21                    ***
+*****************************************************
+
+Temperature=27 ROUT=21
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           567.568m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  432.432m      567.568m
+Power DC Terms:
+PD                  11.687m       15.340m
+
+DC Pin Currents:
+Ir                  27.027m       27.027m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 27.027m
+
+DC Pin Currents:
+ISource           -27.027m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=22                    ***
+*****************************************************
+
+Temperature=27 ROUT=22
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           578.947m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  421.053m      578.947m
+Power DC Terms:
+PD                  11.080m       15.235m
+
+DC Pin Currents:
+Ir                  26.316m       26.316m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 26.316m
+
+DC Pin Currents:
+ISource           -26.316m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=23                    ***
+*****************************************************
+
+Temperature=27 ROUT=23
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           589.744m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  410.256m      589.744m
+Power DC Terms:
+PD                  10.519m       15.122m
+
+DC Pin Currents:
+Ir                  25.641m       25.641m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 25.641m
+
+DC Pin Currents:
+ISource           -25.641m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=24                    ***
+*****************************************************
+
+Temperature=27 ROUT=24
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           600.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  400.000m      600.000m
+Power DC Terms:
+PD                  10.000m       15.000m
+
+DC Pin Currents:
+Ir                  25.000m       25.000m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 25.000m
+
+DC Pin Currents:
+ISource           -25.000m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=25                    ***
+*****************************************************
+
+Temperature=27 ROUT=25
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           609.756m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  390.244m      609.756m
+Power DC Terms:
+PD                   9.518m       14.872m
+
+DC Pin Currents:
+Ir                  24.390m       24.390m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 24.390m
+
+DC Pin Currents:
+ISource           -24.390m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=26                    ***
+*****************************************************
+
+Temperature=27 ROUT=26
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           619.048m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  380.952m      619.048m
+Power DC Terms:
+PD                   9.070m       14.739m
+
+DC Pin Currents:
+Ir                  23.810m       23.810m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 23.810m
+
+DC Pin Currents:
+ISource           -23.810m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=27                    ***
+*****************************************************
+
+Temperature=27 ROUT=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           627.907m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  372.093m      627.907m
+Power DC Terms:
+PD                   8.653m       14.602m
+
+DC Pin Currents:
+Ir                  23.256m       23.256m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 23.256m
+
+DC Pin Currents:
+ISource           -23.256m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=28                    ***
+*****************************************************
+
+Temperature=27 ROUT=28
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           636.364m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  363.636m      636.364m
+Power DC Terms:
+PD                   8.264m       14.463m
+
+DC Pin Currents:
+Ir                  22.727m       22.727m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 22.727m
+
+DC Pin Currents:
+ISource           -22.727m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=29                    ***
+*****************************************************
+
+Temperature=27 ROUT=29
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           644.444m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  355.556m      644.444m
+Power DC Terms:
+PD                   7.901m       14.321m
+
+DC Pin Currents:
+Ir                  22.222m       22.222m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 22.222m
+
+DC Pin Currents:
+ISource           -22.222m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=30                    ***
+*****************************************************
+
+Temperature=27 ROUT=30
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           652.174m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  347.826m      652.174m
+Power DC Terms:
+PD                   7.561m       14.178m
+
+DC Pin Currents:
+Ir                  21.739m       21.739m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 21.739m
+
+DC Pin Currents:
+ISource           -21.739m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=31                    ***
+*****************************************************
+
+Temperature=27 ROUT=31
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           659.574m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  340.426m      659.574m
+Power DC Terms:
+PD                   7.243m       14.033m
+
+DC Pin Currents:
+Ir                  21.277m       21.277m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 21.277m
+
+DC Pin Currents:
+ISource           -21.277m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=32                    ***
+*****************************************************
+
+Temperature=27 ROUT=32
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           666.667m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  333.333m      666.667m
+Power DC Terms:
+PD                   6.944m       13.889m
+
+DC Pin Currents:
+Ir                  20.833m       20.833m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 20.833m
+
+DC Pin Currents:
+ISource           -20.833m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=33                    ***
+*****************************************************
+
+Temperature=27 ROUT=33
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           673.469m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  326.531m      673.469m
+Power DC Terms:
+PD                   6.664m       13.744m
+
+DC Pin Currents:
+Ir                  20.408m       20.408m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 20.408m
+
+DC Pin Currents:
+ISource           -20.408m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=34                    ***
+*****************************************************
+
+Temperature=27 ROUT=34
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           680.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  320.000m      680.000m
+Power DC Terms:
+PD                   6.400m       13.600m
+
+DC Pin Currents:
+Ir                  20.000m       20.000m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 20.000m
+
+DC Pin Currents:
+ISource           -20.000m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=35                    ***
+*****************************************************
+
+Temperature=27 ROUT=35
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           686.275m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  313.725m      686.275m
+Power DC Terms:
+PD                   6.151m       13.456m
+
+DC Pin Currents:
+Ir                  19.608m       19.608m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 19.608m
+
+DC Pin Currents:
+ISource           -19.608m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=36                    ***
+*****************************************************
+
+Temperature=27 ROUT=36
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           692.308m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  307.692m      692.308m
+Power DC Terms:
+PD                   5.917m       13.314m
+
+DC Pin Currents:
+Ir                  19.231m       19.231m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 19.231m
+
+DC Pin Currents:
+ISource           -19.231m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=37                    ***
+*****************************************************
+
+Temperature=27 ROUT=37
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           698.113m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  301.887m      698.113m
+Power DC Terms:
+PD                   5.696m       13.172m
+
+DC Pin Currents:
+Ir                  18.868m       18.868m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 18.868m
+
+DC Pin Currents:
+ISource           -18.868m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=38                    ***
+*****************************************************
+
+Temperature=27 ROUT=38
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           703.704m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  296.296m      703.704m
+Power DC Terms:
+PD                   5.487m       13.032m
+
+DC Pin Currents:
+Ir                  18.519m       18.519m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 18.519m
+
+DC Pin Currents:
+ISource           -18.519m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=39                    ***
+*****************************************************
+
+Temperature=27 ROUT=39
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           709.091m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  290.909m      709.091m
+Power DC Terms:
+PD                   5.289m       12.893m
+
+DC Pin Currents:
+Ir                  18.182m       18.182m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 18.182m
+
+DC Pin Currents:
+ISource           -18.182m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=40                    ***
+*****************************************************
+
+Temperature=27 ROUT=40
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           714.286m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  285.714m      714.286m
+Power DC Terms:
+PD                   5.102m       12.755m
+
+DC Pin Currents:
+Ir                  17.857m       17.857m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 17.857m
+
+DC Pin Currents:
+ISource           -17.857m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=41                    ***
+*****************************************************
+
+Temperature=27 ROUT=41
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           719.298m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  280.702m      719.298m
+Power DC Terms:
+PD                   4.925m       12.619m
+
+DC Pin Currents:
+Ir                  17.544m       17.544m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 17.544m
+
+DC Pin Currents:
+ISource           -17.544m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=42                    ***
+*****************************************************
+
+Temperature=27 ROUT=42
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           724.138m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  275.862m      724.138m
+Power DC Terms:
+PD                   4.756m       12.485m
+
+DC Pin Currents:
+Ir                  17.241m       17.241m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 17.241m
+
+DC Pin Currents:
+ISource           -17.241m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=43                    ***
+*****************************************************
+
+Temperature=27 ROUT=43
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           728.814m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  271.186m      728.814m
+Power DC Terms:
+PD                   4.596m       12.353m
+
+DC Pin Currents:
+Ir                  16.949m       16.949m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 16.949m
+
+DC Pin Currents:
+ISource           -16.949m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=44                    ***
+*****************************************************
+
+Temperature=27 ROUT=44
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           733.333m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  266.667m      733.333m
+Power DC Terms:
+PD                   4.444m       12.222m
+
+DC Pin Currents:
+Ir                  16.667m       16.667m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 16.667m
+
+DC Pin Currents:
+ISource           -16.667m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=45                    ***
+*****************************************************
+
+Temperature=27 ROUT=45
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           737.705m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  262.295m      737.705m
+Power DC Terms:
+PD                   4.300m       12.094m
+
+DC Pin Currents:
+Ir                  16.393m       16.393m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 16.393m
+
+DC Pin Currents:
+ISource           -16.393m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=46                    ***
+*****************************************************
+
+Temperature=27 ROUT=46
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           741.935m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  258.065m      741.935m
+Power DC Terms:
+PD                   4.162m       11.967m
+
+DC Pin Currents:
+Ir                  16.129m       16.129m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 16.129m
+
+DC Pin Currents:
+ISource           -16.129m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=47                    ***
+*****************************************************
+
+Temperature=27 ROUT=47
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           746.032m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  253.968m      746.032m
+Power DC Terms:
+PD                   4.031m       11.842m
+
+DC Pin Currents:
+Ir                  15.873m       15.873m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 15.873m
+
+DC Pin Currents:
+ISource           -15.873m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=48                    ***
+*****************************************************
+
+Temperature=27 ROUT=48
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           750.000m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  250.000m      750.000m
+Power DC Terms:
+PD                   3.906m       11.719m
+
+DC Pin Currents:
+Ir                  15.625m       15.625m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 15.625m
+
+DC Pin Currents:
+ISource           -15.625m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=49                    ***
+*****************************************************
+
+Temperature=27 ROUT=49
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           753.846m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  246.154m      753.846m
+Power DC Terms:
+PD                   3.787m       11.598m
+
+DC Pin Currents:
+Ir                  15.385m       15.385m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 15.385m
+
+DC Pin Currents:
+ISource           -15.385m
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                    ROUT=50                    ***
+*****************************************************
+
+Temperature=27 ROUT=50
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           757.576m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  242.424m      757.576m
+Power DC Terms:
+PD                   3.673m       11.478m
+
+DC Pin Currents:
+Ir                  15.152m       15.152m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 15.152m
+
+DC Pin Currents:
+ISource           -15.152m
+
+

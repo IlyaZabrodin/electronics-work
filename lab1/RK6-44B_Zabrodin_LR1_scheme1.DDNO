@@ -1,0 +1,47 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                Dynamic DC of RK6-44B_Zabrodin_LR1_scheme1                ***
+***                            03.03.2024 0:11:03                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1             1.000   2           384.615m 
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:               RIN          ROUT
+V                  615.385m      384.615m
+Power DC Terms:
+PD                  23.669m       14.793m
+
+DC Pin Currents:
+Ir                  38.462m       38.462m
+
+Device Variables:
+tc1                  0.000         0.000 
+tc2                  0.000         0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   1.000 
+Power DC Terms:
+PG                 38.462m
+
+DC Pin Currents:
+ISource           -38.462m
+
+

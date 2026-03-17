@@ -1,0 +1,1716 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***  Transient Analysis of RK6-44B_Zabrodin_LR7_key_rassasivanie_transient   ***
+***                                                                          ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           50u
+Output Start Time (tstart) 0
+Maximum Time Step          0.01u
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           On
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+Stepping Options
+================
+Stepping is Nested
+
+Step What  RB value
+From       20K
+To         200K
+Step Value 20K
+Method     Linear
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=20K                     ***
+*****************************************************
+
+Run=1 Temperature=27 RB=20K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2           990.577u  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.010 
+BETAAC               -2.842u
+
+Capacitance Terms:
+CPI                  14.006p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.387p
+
+Current Terms:
+IB                  -49.529n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 2.049MEG
+RX                    5.000 
+RO                  714.276G
+
+Voltage Terms:
+VBE                 990.577u
+VBC                  -9.999 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -12.152m
+
+Power DC Terms:
+PD                  500.166n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -49.529n
+Ic                   50.022n
+Ie                 -493.170p
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u       -990.577u
+Power DC Terms:
+PD                     5.004p         49.062p
+
+DC Pin Currents:
+Ir                   -50.022n        -49.529n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         49.529n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=40K                     ***
+*****************************************************
+
+Run=1 Temperature=27 RB=40K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             1.962m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.020 
+BETAAC               -2.778u
+
+Capacitance Terms:
+CPI                  14.012p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.368p
+
+Current Terms:
+IB                  -49.053n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 2.030MEG
+RX                    5.000 
+RO                  714.365G
+
+Voltage Terms:
+VBE                   1.962m
+VBC                  -9.998 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.988m
+
+Power DC Terms:
+PD                  500.119n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -49.053n
+Ic                   50.022n
+Ie                 -969.451p
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -1.962m
+Power DC Terms:
+PD                     5.004p         96.246p
+
+DC Pin Currents:
+Ir                   -50.022n        -49.053n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         49.053n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=60K                     ***
+*****************************************************
+
+Run=1 Temperature=27 RB=60K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             2.915m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.030 
+BETAAC               -2.715u
+
+Capacitance Terms:
+CPI                  14.018p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.350p
+
+Current Terms:
+IB                  -48.581n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 2.012MEG
+RX                    5.000 
+RO                  714.451G
+
+Voltage Terms:
+VBE                   2.915m
+VBC                  -9.997 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.821m
+
+Power DC Terms:
+PD                  500.074n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -48.581n
+Ic                   50.022n
+Ie                   -1.441n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -2.915m
+Power DC Terms:
+PD                     5.004p        141.607p
+
+DC Pin Currents:
+Ir                   -50.022n        -48.581n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         48.581n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=80K                     ***
+*****************************************************
+
+Run=1 Temperature=27 RB=80K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             3.849m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.040 
+BETAAC               -2.653u
+
+Capacitance Terms:
+CPI                  14.024p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.331p
+
+Current Terms:
+IB                  -48.115n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.994MEG
+RX                    5.000 
+RO                  714.536G
+
+Voltage Terms:
+VBE                   3.849m
+VBC                  -9.996 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.651m
+
+Power DC Terms:
+PD                  500.030n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -48.115n
+Ic                   50.022n
+Ie                   -1.907n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -3.849m
+Power DC Terms:
+PD                     5.004p        185.201p
+
+DC Pin Currents:
+Ir                   -50.022n        -48.115n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         48.115n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=100K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=100K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             4.765m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.050 
+BETAAC               -2.591u
+
+Capacitance Terms:
+CPI                  14.029p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.311p
+
+Current Terms:
+IB                  -47.653n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.976MEG
+RX                    5.000 
+RO                  714.619G
+
+Voltage Terms:
+VBE                   4.765m
+VBC                  -9.995 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.479m
+
+Power DC Terms:
+PD                  499.988n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -47.653n
+Ic                   50.022n
+Ie                   -2.369n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -4.765m
+Power DC Terms:
+PD                     5.004p        227.081p
+
+DC Pin Currents:
+Ir                   -50.022n        -47.653n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         47.653n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=120K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=120K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             5.664m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.060 
+BETAAC               -2.531u
+
+Capacitance Terms:
+CPI                  14.035p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.292p
+
+Current Terms:
+IB                  -47.196n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.959MEG
+RX                    5.000 
+RO                  714.700G
+
+Voltage Terms:
+VBE                   5.664m
+VBC                  -9.994 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.304m
+
+Power DC Terms:
+PD                  499.948n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -47.196n
+Ic                   50.022n
+Ie                   -2.826n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -5.664m
+Power DC Terms:
+PD                     5.004p        267.300p
+
+DC Pin Currents:
+Ir                   -50.022n        -47.196n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         47.196n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=140K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=140K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             6.544m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.070 
+BETAAC               -2.471u
+
+Capacitance Terms:
+CPI                  14.041p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.272p
+
+Current Terms:
+IB                  -46.745n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.942MEG
+RX                    5.000 
+RO                  714.780G
+
+Voltage Terms:
+VBE                   6.544m
+VBC                  -9.993 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -11.128m
+
+Power DC Terms:
+PD                  499.909n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -46.745n
+Ic                   50.022n
+Ie                   -3.277n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -6.544m
+Power DC Terms:
+PD                     5.004p        305.912p
+
+DC Pin Currents:
+Ir                   -50.022n        -46.745n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         46.745n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=160K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=160K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             7.408m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.080 
+BETAAC               -2.412u
+
+Capacitance Terms:
+CPI                  14.046p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.252p
+
+Current Terms:
+IB                  -46.298n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.926MEG
+RX                    5.000 
+RO                  714.858G
+
+Voltage Terms:
+VBE                   7.408m
+VBC                  -9.992 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -10.948m
+
+Power DC Terms:
+PD                  499.872n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -46.298n
+Ic                   50.022n
+Ie                   -3.724n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -7.408m
+Power DC Terms:
+PD                     5.004p        342.968p
+
+DC Pin Currents:
+Ir                   -50.022n        -46.298n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         46.298n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=180K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=180K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             8.254m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.091 
+BETAAC               -2.353u
+
+Capacitance Terms:
+CPI                  14.051p
+CMU                   4.154p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.232p
+
+Current Terms:
+IB                  -45.857n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.910MEG
+RX                    5.000 
+RO                  714.934G
+
+Voltage Terms:
+VBE                   8.254m
+VBC                  -9.992 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -10.767m
+
+Power DC Terms:
+PD                  499.837n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -45.857n
+Ic                   50.022n
+Ie                   -4.165n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -8.254m
+Power DC Terms:
+PD                     5.004p        378.519p
+
+DC Pin Currents:
+Ir                   -50.022n        -45.857n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         45.857n
+
+
+
+*****************************************************
+***                     Run=1                     ***
+***                Temperature=27                 ***
+***                    RB=200K                    ***
+*****************************************************
+
+Run=1 Temperature=27 RB=200K
+
+Model parameters for devices of type Bipolar Junction Transistors NPN
+=====================================================================
+Instance:              Q1   
+Using model:     KT3107G_   
+LEVEL                   1(*)
+AF                 1.000 (*)
+BF               220.000    
+BR                 1.000 (*)
+CJC               10.000p   
+CJE               14.000p   
+CJS                0.000 (*)
+EG                 1.110 (*)
+FC               500.000m(*)
+GAMMA             10.000p(*)
+IKF              100.000m   
+IKR                0.000 (*)
+IRB                0.000 (*)
+IS                10.000f   
+ISC               50.000n   
+ISE               50.000n   
+ISS                0.000 (*)
+ITF                0.000 (*)
+KF                 0.000 (*)
+MJC              330.000m(*)
+MJE              330.000m(*)
+MJS                0.000 (*)
+NC                 4.000    
+NE                 4.000    
+NF                 1.000 (*)
+NK               500.000m(*)
+NR                 1.000 (*)
+NS                 1.000 (*)
+PTF                0.000 (*)
+QCO                0.000 (*)
+QUASIMOD           0.000 (*)
+RB                 5.000    
+RBM                0.000 (*)
+RC                 0.000 (*)
+RCO                0.000 (*)
+RE               500.000m   
+T_ABS           UNDEFINED(*)
+T_MEASURED      UNDEFINED(*)
+T_REL_GLOBAL    UNDEFINED(*)
+T_REL_LOCAL     UNDEFINED(*)
+TF               600.000p   
+TR               100.000n   
+TRB1               0.000 (*)
+TRB2               0.000 (*)
+TRC1               0.000 (*)
+TRC2               0.000 (*)
+TRE1               0.000 (*)
+TRE2               0.000 (*)
+TRM1               0.000 (*)
+TRM2               0.000 (*)
+VAF               50.000    
+VAR                6.000    
+VG                 1.206 (*)
+VJC              750.000m(*)
+VJE              750.000m(*)
+VJS              750.000m(*)
+VO                10.000 (*)
+VTF                0.000 (*)
+XCJC               1.000 (*)
+XTB                0.000 (*)
+XTF                0.000 (*)
+XTI                3.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+OUT          10.000   2             9.084m  3            10.000  
+IN            0.000  
+
+
+Operating Point for Devices of Type Bipolar Junction Transistors NPN
+====================================================================
+Instance:                 Q1
+Using model:        KT3107G_
+
+Beta Terms:
+BETADC               -1.101 
+BETAAC               -2.295u
+
+Capacitance Terms:
+CPI                  14.056p
+CMU                   4.155p
+CBX                   0.000 
+CJS                   0.000 
+
+Conductance Terms:
+GM                   -1.211p
+
+Current Terms:
+IB                  -45.421n
+IC                   50.022n
+
+Resistance Terms:
+RPI                 1.895MEG
+RX                    5.000 
+RO                  715.009G
+
+Voltage Terms:
+VBE                   9.084m
+VBC                  -9.991 
+VCE                  10.000 
+
+Frequency Terms:
+FT                  -10.584m
+
+Power DC Terms:
+PD                  499.802n
+PS                    0.000 
+
+DC Pin Currents:
+Ib                  -45.421n
+Ic                   50.022n
+Ie                   -4.601n
+Is                    0.000 
+
+Condition:
+State                    OFF
+
+Device Variables:
+area                  1.000 
+vbe                   0.000 
+vce                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                  RC              RB
+V                   -100.044u         -9.084m
+Power DC Terms:
+PD                     5.004p        412.614p
+
+DC Pin Currents:
+Ir                   -50.022n        -45.421n
+
+Device Variables:
+tc1                    0.000           0.000 
+tc2                    0.000           0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                 VC              V3
+V                    10.000           0.000 
+Power DC Terms:
+PG                  500.220n          0.000 
+
+DC Pin Currents:
+ISource             -50.022n         45.421n
+
+

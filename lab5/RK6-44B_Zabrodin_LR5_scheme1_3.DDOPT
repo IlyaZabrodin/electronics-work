@@ -1,0 +1,46 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***          Dynamic DC Optimizer of RK6-44B_Zabrodin_LR5_scheme1_3          ***
+***                           13.05.2024 14:04:31                            ***
+********************************************************************************
+
+Find:
+   V1 Low=415.3416m High=720.098m 
+
+That:
+   Equates v(out) To=6
+
+Objective Function = Sum of the differences between the values of "That Expression" and the "To" values.
+
+Minimizing the Objective Function
+
+Start With:
+   Existing
+
+Powell:
+   Start with:V1=720.098m 
+   Best: V1=704.527788m Percent=423.567165u
+Hooke:
+   Start with:V1=720.098m 
+   Best: V1=704.528051m Percent=437.125003u
+Levenberg-Marquardt:
+   Start with:V1=720.098m 
+   Best: V1=704.527917m Percent=843.769499f
+Differential Evolution:
+   Start with:V1=720.098m 
+   Best: V1=704.527914m Percent=437.68178u
+
+Best so far Levenberg-Marquardt: V1=704.527917m Percent=843.769499f
+
+
+Final Result:
+   Levenberg-Marquardt
+   Start:   V1=720.098m 
+   Result:   V1=704.527917m Percent=843.769499f
+
+Info:
+   Time=0.937 sec
+   RMS Error=0
+   Percent Error=843.769499f

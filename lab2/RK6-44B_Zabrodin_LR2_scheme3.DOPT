@@ -1,0 +1,46 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***          DC Analysis Optimizer of RK6-44B_Zabrodin_LR2_scheme3           ***
+***                           22.03.2024 17:21:27                            ***
+********************************************************************************
+
+Find:
+   D KD213B(RS) Low=12.67m High=50.68m 
+
+That:
+   Equates Y_Level(I(D1),1,1,DCMAX) To=10.146
+
+Objective Function = Sum of the differences between the values of "That Expression" and the "To" values.
+
+Minimizing the Objective Function
+
+Start With:
+   Existing
+
+Powell:
+   Start with:D KD213B(RS)=25.34m 
+   Best: D KD213B(RS)=34.519775m Percent=406.430699u
+Hooke:
+   Start with:D KD213B(RS)=25.34m 
+   Best: D KD213B(RS)=34.519947m Percent=57.163963u
+Levenberg-Marquardt:
+   Start with:D KD213B(RS)=25.34m 
+   Best: D KD213B(RS)=34.519926m Percent=350.159046f
+Differential Evolution:
+   Start with:D KD213B(RS)=25.34m 
+   Best: D KD213B(RS)=34.519926m Percent=22.750401u
+
+Best so far Levenberg-Marquardt: D KD213B(RS)=34.519926m Percent=350.159046f
+
+
+Final Result:
+   Levenberg-Marquardt
+   Start:   D KD213B(RS)=25.34m 
+   Result:   D KD213B(RS)=34.519926m Percent=350.159046f
+
+Info:
+   Time=2.125 sec
+   RMS Error=35.527137f
+   Percent Error=350.159046f

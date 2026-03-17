@@ -1,0 +1,86 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***               Dynamic AC of RK6-44B_Zabrodin_LR5_scheme2_1               ***
+***                           13.05.2024 14:30:44                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node              Voltage  Node              Voltage 
+IN                      1  2        999.924m,8.539m° 
+3                       0  OUT      156.708,122.882° 
+
+
+AC values for Bipolar Junction Transistors NPN (Mag, Degrees)
+=============================================================
+Instance:                      Q1
+Using model:               KT351A
+
+Power AC Terms:
+PG                   6.74,-6.748°
+PD                       558.255m
+PS                  794.325m,-90°
+
+AC Pin Currents:
+Ib                10.518m,27.158°
+Ic               78.354m,-57.118°
+Ie                80.09m,130.391°
+Is                              0
+
+Device Variables:
+area                       1.000 
+vbe                        0.000 
+vce                        0.000 
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                       RB                   RK
+
+Power AC Terms:
+PD                           2.84u                6.139
+
+AC Pin Currents:
+Ir                5.681u,-179.991°     78.354m,122.882°
+
+Device Variables:
+tc1                         0.000                0.000 
+tc2                         0.000                0.000 
+
+
+
+AC values for Capacitor (Mag, Degrees)
+======================================
+Instance:                      CP1
+
+Power AC Terms:
+PS                   881.151n,-90°
+
+AC Pin Currents:
+Ic                 10.523m,27.144°
+
+Device Variables:
+ic                          0.000 
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                      V1                   EK
+
+Power AC Terms:
+PG                5.261m,-27.144°                    0
+
+AC Pin Currents:
+ISource         10.523m,-152.856°     78.351m,122.879°
+
+
